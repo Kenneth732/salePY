@@ -1,8 +1,4 @@
 # main.py
-from sales import *
+from sales.order import create_sales_order
 
-
-order.create_sales_order()
-delivery.create_delivery()
-
-# cannot access the billing module
+create_sales_order()
